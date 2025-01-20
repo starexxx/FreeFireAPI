@@ -1,9 +1,9 @@
-# 📝 API Documentation
+# API Documentation
 Last Update: 20 January 2025
-# Account Information
-Endpoint: /profile  
-Method: GET  
-Description
+### Account Information
+<b>Endpoint</b>: `/profile`
+<b>Method</b>: `GET`
+<b>Description</b>:
 This endpoint retrieves account information based on the specified region and user ID.
 
 ### Query Parameters
@@ -114,9 +114,9 @@ GET https://freefireinfo.vercel.app/profile?region={region}&uid={player_uid}&key
 ```
 # Craftland Map Info
 
-Endpoint: /map  
-Method: GET  
-Description: The Craftland Map Info API provides details about custom maps in Free Fire, including title, description, creator, size, game mode, realtime likes and subscriptions.
+<b>Endpoint</b>: `/map`  
+<b>Method</b>: `GET` 
+<b>Description</b>: The Craftland Map Info API provides details about custom maps in Free Fire, including title, description, creator, size, game mode, realtime likes and subscriptions.
 
 ### Query Parameters
 
@@ -155,9 +155,9 @@ GET https://freefireinfo.vercel.app/map?region={region}&code={map_code}&key={Api
 ```
 # Free Fire Events
 
-Endpoint: /event  
-Method: GET  
-Description: The Free Fire Incoming Event API provides real-time details about upcoming in-game events, including event names, start and end dates, rewards, and banners.
+<b>Endpoint</b>: `/event`
+<b>Method</b>: `GET`
+<b>Description</b>: The Free Fire Incoming Event API provides real-time details about upcoming in-game events, including event names, start and end dates, rewards, and banners.
 
 ### Query Parameters
 
