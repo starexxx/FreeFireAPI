@@ -2,7 +2,7 @@
 Last Update: 20 January 2025
 Join our channel for latest API Key!!
 <a href="https://t.me/starexxxxxx">Join Now!</a>
-### Account Information
+# Account Information
 <b>Endpoint</b>: `/profile`<br>
 <b>Method</b>: `GET`<br>
 <b>Description</b>:
