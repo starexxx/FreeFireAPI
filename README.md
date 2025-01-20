@@ -217,7 +217,8 @@ GET https://freefireinfo.vercel.app/event?region={region}&key={Api_Key}
       "Start": "1737239400",
       "End": "1737325799",
       "Banner": "https://dl-tata.freefireind.in/common/Local/IND/config/1750x1070_LessIsMoreSplashIND_en.jpg",
-      "Redirect": ""```
+      "Redirect": ""
     }
   ]
 }
+```
