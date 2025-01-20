@@ -1,5 +1,5 @@
 # API Documentation
-Last Update: 20 January 2025
+<b>Last Update</b>: 20 January 2025<br>
 Join our channel for latest API Key!!
 <a href="https://t.me/starexxxxxx">Join Now!</a>
 # Account Information
@@ -166,8 +166,8 @@ GET https://freefireinfo.vercel.app/map?region={region}&code={map_code}&key={Api
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
 | region  | string | Yes      | The region code (IND, BR, SG, RU, ID, TW, US, VN, TH, ME, PK, CIS, BD).
-| Valid Regions ["ID","IND","NA","PK","BR","ME","SG","BD","TW","TH","VN","CIS","EU","SAC"]
-| key     | string | Yes      | Api Key.|
+| Valid Regions (ID, IND, NA, PK, BR, ME, SG, BD, TW, TH, VN, CIS, EU,SAC)
+| key     | string | Yes      | Api Key |
 ### Request Example
 ```http
 GET https://freefireinfo.vercel.app/event?region={region}&key={Api_Key}
@@ -217,7 +217,7 @@ GET https://freefireinfo.vercel.app/event?region={region}&key={Api_Key}
       "Start": "1737239400",
       "End": "1737325799",
       "Banner": "https://dl-tata.freefireind.in/common/Local/IND/config/1750x1070_LessIsMoreSplashIND_en.jpg",
-      "Redirect": ""
+      "Redirect": ""```
     }
   ]
 }
