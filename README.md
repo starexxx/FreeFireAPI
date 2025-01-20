@@ -1,8 +1,10 @@
 # API Documentation
 Last Update: 20 January 2025
+Join our channel for latest API Key!!
+<a href="https://t.me/starexxxxxx">Join Now!</a>
 ### Account Information
-<b>Endpoint</b>: `/profile`
-<b>Method</b>: `GET`
+<b>Endpoint</b>: `/profile`<br>
+<b>Method</b>: `GET`<br>
 <b>Description</b>:
 This endpoint retrieves account information based on the specified region and user ID.
 
@@ -114,8 +116,8 @@ GET https://freefireinfo.vercel.app/profile?region={region}&uid={player_uid}&key
 ```
 # Craftland Map Info
 
-<b>Endpoint</b>: `/map`  
-<b>Method</b>: `GET` 
+<b>Endpoint</b>: `/map`  <br>
+<b>Method</b>: `GET` <br>
 <b>Description</b>: The Craftland Map Info API provides details about custom maps in Free Fire, including title, description, creator, size, game mode, realtime likes and subscriptions.
 
 ### Query Parameters
@@ -155,8 +157,8 @@ GET https://freefireinfo.vercel.app/map?region={region}&code={map_code}&key={Api
 ```
 # Free Fire Events
 
-<b>Endpoint</b>: `/event`
-<b>Method</b>: `GET`
+<b>Endpoint</b>: `/event`<br>
+<b>Method</b>: `GET`<br>
 <b>Description</b>: The Free Fire Incoming Event API provides real-time details about upcoming in-game events, including event names, start and end dates, rewards, and banners.
 
 ### Query Parameters
@@ -166,7 +168,7 @@ GET https://freefireinfo.vercel.app/map?region={region}&code={map_code}&key={Api
 | region  | string | Yes      | The region code (IND, BR, SG, RU, ID, TW, US, VN, TH, ME, PK, CIS, BD).
 | Valid Regions ["ID","IND","NA","PK","BR","ME","SG","BD","TW","TH","VN","CIS","EU","SAC"]
 | key     | string | Yes      | Api Key.|
-### 📨 Request Example
+### Request Example
 ```http
 GET https://freefireinfo.vercel.app/event?region={region}&key={Api_Key}
 ```
